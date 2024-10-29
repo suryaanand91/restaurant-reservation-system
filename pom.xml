@@ -38,7 +38,19 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+ 		<!-- MySQL Driver -->
+    	<dependency>
+        	<groupId>mysql</groupId>
+        	<artifactId>mysql-connector-java</artifactId>
+        	<version>8.0.33</version> <!-- Use the latest version -->
+    	</dependency>
 
+    <!-- Optional: Hibernate Validator for JPA validation -->
+    	<dependency>
+        	<groupId>org.hibernate.validator</groupId>
+        	<artifactId>hibernate-validator</artifactId>
+        	<version>6.2.0.Final</version> <!-- Use the latest version -->
+    	</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>

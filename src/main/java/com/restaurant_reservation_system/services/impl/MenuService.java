@@ -4,7 +4,8 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.restaurant_reservation_system.config.model.Menu; 
+
+import com.restaurant_reservation_system.model.Menu;
 import com.restaurant_reservation_system.repo.impl.MenuRepository;
 
 @Service

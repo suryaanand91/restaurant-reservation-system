@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.restaurant_reservation_system.config.model.Menu;
+import com.restaurant_reservation_system.model.Menu;
 import com.restaurant_reservation_system.services.impl.MenuService;
 
 import java.util.List;

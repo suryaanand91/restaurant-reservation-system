@@ -1,4 +1,4 @@
-package com.restaurant_reservation_system.config.model;
+package com.restaurant_reservation_system.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
